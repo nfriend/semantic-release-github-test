@@ -1,0 +1,13 @@
+{
+  "name": "@nathanfriend/semantic-release-github-test",
+  "version": "1.0.0",
+  "description": "A test module to play around with @semantic-release/github",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": "https://github.com/nfriend/semantic-release-github-test.git",
+  "author": "Nathan Friend <nathan@gitlab.com>",
+  "license": "MIT",
+  "private": false
+}
