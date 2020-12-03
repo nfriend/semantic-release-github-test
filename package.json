@@ -9,5 +9,11 @@
   "repository": "https://github.com/nfriend/semantic-release-github-test.git",
   "author": "Nathan Friend <nathan@gitlab.com>",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/github": "^7.2.0",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "semantic-release": "^17.3.0"
+  }
 }
