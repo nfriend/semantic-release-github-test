@@ -6,7 +6,7 @@
   "files": [
     "index.js"
   ],
-  "repository": "https://github.com/nfriend/semantic-release-github-test.git",
+  "repository": "git@github.com:nfriend/semantic-release-github-test.git",
   "author": "Nathan Friend <nathan@gitlab.com>",
   "license": "MIT",
   "private": false,

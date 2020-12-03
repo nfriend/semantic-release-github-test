@@ -1,9 +1,12 @@
 name: semantic-release
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 jobs:
-  semantic-release:
+  release:
     name: Run semantic-release
     runs-on: ubuntu-latest
     container: node:latest
