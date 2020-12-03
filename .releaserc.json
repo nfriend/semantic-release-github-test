@@ -5,7 +5,13 @@
     [
       "@semantic-release/github",
       {
-        "assets": [{ "path": "index.js", "label": "JS module" }]
+        "assets": [
+          {
+            "path": "index.js",
+            "label": "JS module (${nextRelease.gitTag})",
+            "name": "index-${nextRelease.gitTag}.js"
+          }
+        ]
       }
     ]
   ]
